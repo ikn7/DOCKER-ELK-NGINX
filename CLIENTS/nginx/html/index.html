@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Gestion des Logs - Zentech</title>
+    <style>
+        /* Couleurs principales inspirées d'Elastic */
+        :root {
+            --primary-blue: #005571;
+            --primary-orange: #F04E23;
+            --primary-yellow: #F0B90A;
+            --background-color: #f7f7f7;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--primary-orange);
+            border-bottom: 2px solid var(--primary-orange);
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .btn {
+            background-color: var(--primary-yellow);
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-orange);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: var(--primary-blue);
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TP Gestion des Logs - Zentech</h1>
+    </header>
+    <div class="container">
+	<form method="GET" action="/">
+	<input type="text" name='search' placeholder='Faites votre recherche'>
+	<input type="submit" value="Rechercher">
+	</form>
+        <h2>Introduction</h2>
+        <p>Bienvenue dans le TP de gestion des logs pour Zentech. Dans ce TP, vous apprendrez à configurer et utiliser la pile ELK (Elastic, Logstash, Kibana) pour analyser les logs de votre site web.</p>
+
+        <h2>Objectifs du TP</h2>
+        <p>L'objectif de ce TP est de :</p>
+        <ul>
+            <li>Comprendre les bases de la gestion des logs</li>
+            <li>Installer et configurer Elastic, Logstash, et Kibana</li>
+            <li>Analyser les logs générés par le site web de Zentech</li>
+        </ul>
+
+        <h2>Étapes</h2>
+        <ol>
+            <li><strong>Étape 1 :</strong> Installation de la pile ELK</li>
+            <li><strong>Étape 2 :</strong> Configuration de Filebeat pour la collecte des logs</li>
+            <li><strong>Étape 3 :</strong> Analyse des logs dans Kibana</li>
+        </ol>
+
+        <a href="trump.html" class="btn">Make America Great Again and win Bitcoin !</a>
+	<img src="https://cdn.pixabay.com/photo/2020/05/10/18/26/donald-trump-5155123_640.png">
+    </div>
+    <footer>
+        &copy; 2024 Zentech. Tous droits réservés.
+    </footer>
+</body>
+</html>
